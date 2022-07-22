@@ -1,1 +1,2 @@
 # UnixRubyHoteityou
+ruby calcs.rb
