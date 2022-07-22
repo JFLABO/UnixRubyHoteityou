@@ -4,10 +4,14 @@ input=gets.chomp
 if input == "a" then
         print ("追加コマンド")
         print ("\n")
+        print ("in01.datにタブ区切りのデータを入れてください")
+        print ("\n")
 elsif input == "e" then
         print "編集コマンド"
         print "\n"
-elsif input == "v" then
+        print ("in01.datにタブ区切りのデータを入れてください")
+        print ("\n")
+elsif input == "e" then
         print "閲覧コマンド"
         print "\n"
         result=`ruby sum.rb`
@@ -16,4 +20,3 @@ else
         print "それ以外"
         print "\n"
 end
-~
